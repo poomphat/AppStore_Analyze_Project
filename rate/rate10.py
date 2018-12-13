@@ -78,7 +78,7 @@ for i in gen.iterrows():
         catalogs += 1
 
 
-print("RATE
+print("RATE 1 ")
       
 print("Games :", game)
 print("Entertainment :", entertainment)
@@ -87,8 +87,7 @@ print("Photo & Video :", photo)
 print("Utilities :", utilities)
 print("Health & Fitness :", health)
 print("Productivity & Fitness :", productivity)
-print("Social Networking :", soci
-      al)
+print("Social Networking :", social)
 print("Lifestyle :", life)
 print("Music :", music)
 print("Shoping :", shop)

@@ -31,54 +31,54 @@ gen = data_file[["prime_genre","user_rating"]]
 
 for i in gen.iterrows():
     if "Games" in str(i) and " 0.5" in str(i):
-        game += 0.5
+        game += 1
     elif "Entertainment" in str(i) and " 0.5" in str(i):
-        entertainment += 0.5
+        entertainment += 1
     elif "Education" in str(i) and " 0.5" in str(i):
-        education += 0.5
+        education += 1
     elif "Photo & Video" in str(i) and " 0.5" in str(i):
-        photo += 0.5
+        photo += 1
     elif "Utilities" in str(i) and " 0.5" in str(i):
-        utilities += 0.5
+        utilities += 1
     elif "Health & Fitness" in str(i) and " 0.5" in str(i):
-        health += 0.5
+        health += 1
     elif "Productivity" in str(i) and " 0.5" in str(i):
-        productivity += 0.5
+        productivity += 1
     elif "Social Networking" in str(i) and " 0.5" in str(i):
-        social += 0.5
+        social += 1
     elif "Lifestyle" in str(i) and " 0.5" in str(i):
-        life += 0.5
+        life += 1
     elif "Music" in str(i) and " 0.5" in str(i):
-        music += 0.5
+        music += 1
     elif "Shoping" in str(i) and " 0.5" in str(i):
-        shop += 0.5
+        shop += 1
     elif "Sports" in str(i) and " 0.5" in str(i):
-        sports += 0.5
+        sports += 1
     elif "Book" in str(i) and " 0.5" in str(i):
-        book += 0.5
+        book += 1
     elif "Finance" in str(i) and " 0.5" in str(i):
-        finance += 0.5
+        finance += 1
     elif "Travel" in str(i) and " 0.5" in str(i):
-        travel += 0.5
+        travel += 1
     elif "News" in str(i) and " 0.5" in str(i):
-        news += 0.5
+        news += 1
     elif "Weather" in str(i) and " 0.5" in str(i):
-        weather += 0.5
+        weather += 1
     elif "Reference" in str(i) and " 0.5" in str(i):
-        reference += 0.5
+        reference += 1
     elif "Food & Drink" in str(i) and " 0.5" in str(i):
-        food += 0.5
+        food += 1
     elif "Business" in str(i) and " 0.5" in str(i):
-        business += 0.5
+        business += 1
     elif "Navigation" in str(i) and " 0.5" in str(i):
-        navigation += 0.5
+        navigation += 1
     elif "Medical" in str(i) and " 0.5" in str(i):
-        medical += 0.5
+        medical += 1
     elif "Catalogs" in str(i) and " 0.5" in str(i):
-        catalogs += 0.5
+        catalogs += 1
 
 
-print("RATE
+print("RATE 0.5")
       
 print("Games :", game)
 print("Entertainment :", entertainment)
@@ -87,8 +87,7 @@ print("Photo & Video :", photo)
 print("Utilities :", utilities)
 print("Health & Fitness :", health)
 print("Productivity & Fitness :", productivity)
-print("Social Networking :", soci
-      al)
+print("Social Networking :", social)
 print("Lifestyle :", life)
 print("Music :", music)
 print("Shoping :", shop)
