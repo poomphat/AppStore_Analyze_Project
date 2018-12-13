@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<meta charset="UTF-8">
+<script>
+window.onload = function () {
+	
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	
+	title:{
+		text:"Most expensive"
+	},
+	axisX:{
+		interval: 1
+	
+	},
+	data: [{
+		type: "bar",
+		name: "companies",
+		axisYType: "secondary",
+		color: "#014D65",
+		dataPoints: [
+			{ y: 24.99, label: "AnkiMobile Flashcards" },
+			{ y: 27.99, label: "The Complete Adventures of Pan (Books 1-7)" },
+			{ y: 29.99, label: "ARP ODYSSEi" },
+			{ y: 29.99, label: "KORG iWAVESTATION" },
+			{ y: 29.99, label: "Model 15" },
+			{ y: 29.99, label: "KORG iM1" },
+			{ y: 29.99, label: "Astropad Standard" },
+			{ y: 29.99, label: "Extreme Landings Pro" },
+			{ y: 34.99, label: "Anatomy & Physiology: Body Structures and Function" },
+			{ y: 39.99, label: "KORG Module" },
+			{ y: 39.99, label: "KORG Gadget" },
+			{ y: 49.99, label: "VPN Pro | Lifetime Proxy & Best VPN by Betternet" },
+			{ y: 49.99, label: "Cubasis 2 - Mobile Music Creation System" },
+			{ y: 59.99, label: "FineScanner Pro - PDF Document Scanner App + OCR" },
+			{ y: 59.99, label: "Articulation Test Center Pro" },
+			{ y: 59.99, label: "Articulation Station Pro" },
+			{ y: 74.99, label: "NAVIGON Europe" },
+			{ y: 99.99, label: "KNFB Reader" },
+			{ y: 249.99, label: "Proloquo2Go - Symbol-based AAC" },
+			{ y: 299.99, label: "LAMP Words For Life" }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; max-width: 1000px; margin: 0px auto;"></div>
+<script src="../canvasjs.min.js"></script>
+</body>
+</html>
