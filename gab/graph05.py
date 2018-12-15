@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 y = np.arange(1,24)
-x = [463,64,66,24,29,21,6,33,31,4,0,13,47,33,10,15,6,11,11,44,15,3,5]
+x = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 gen = ["Games","Entertainment","Education","Photo & Video","Utilities","Health & Fitness"\
        ,"Productivity","Social Networking","Lifestyle","Music","Shoping","Sports"\
        ,"Book","Finance","Travel","News","Weather","Reference","Food & Drink"\
