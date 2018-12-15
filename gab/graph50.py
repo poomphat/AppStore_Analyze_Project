@@ -12,3 +12,4 @@ ay = plt.gca(yticks=y)
 ay.set_yticklabels(gen,rotation=0) 
 plt.barh(y,x)
 plt.show()
+
