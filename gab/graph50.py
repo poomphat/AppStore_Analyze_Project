@@ -8,7 +8,7 @@ gen = ["Games","Entertainment","Education","Photo & Video","Utilities","Health &
        ,"Business","Navigation","Medical","Catalogs"]
 gen.reverse()
 x.reverse()
-ay = plt.gca(yticks=y) # กำหนดให้ขีดวางตรงทุกค่าตำแน่งที่ป้อนเข้าไป 
-ay.set_yticklabels(gen,rotation=0) # ใส่ชื่อจังหวัดลงไปแทนตัวเลข 
+ay = plt.gca(yticks=y)
+ay.set_yticklabels(gen,rotation=0) 
 plt.barh(y,x)
 plt.show()
