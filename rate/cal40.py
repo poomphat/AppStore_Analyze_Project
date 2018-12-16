@@ -27,58 +27,69 @@ medical = 0
 catalogs = 0
 
 data_file = pd.read_csv('AppleStore.csv')
-gen = data_file[["prime_genre","user_rating"]]
+c = 1
+box3 = []
 
-for i in gen.iterrows():
-    if "Games" in str(i) and " 3.5" in str(i):
+box1 = data_file["prime_genre"].tolist()
+box2 = data_file["user_rating"].tolist()
+box2 = [str(i) for i in box2]
+for x in box1:
+    for y in box2[c::]:
+        c += 1
+        box3.append(x+y)
+        break
+    
+for i in box3:
+    if "Games" in str(i) and "4.0" in str(i):
         game += 1
-    elif "Entertainment" in str(i) and " 3.5" in str(i):
+    elif "Entertainment" in str(i) and "4.0" in str(i):
         entertainment += 1
-    elif "Education" in str(i) and " 3.5" in str(i):
+    elif "Education" in str(i) and "4.0" in str(i):
         education += 1
-    elif "Photo & Video" in str(i) and " 3.5" in str(i):
+    elif "Photo & Video" in str(i) and "4.0" in str(i):
         photo += 1
-    elif "Utilities" in str(i) and " 3.5" in str(i):
+    elif "Utilities" in str(i) and "4.0" in str(i):
         utilities += 1
-    elif "Health & Fitness" in str(i) and " 3.5" in str(i):
+    elif "Health & Fitness" in str(i) and "4.0" in str(i):
         health += 1
-    elif "Productivity" in str(i) and " 3.5" in str(i):
+    elif "Productivity" in str(i) and "4.0" in str(i):
         productivity += 1
-    elif "Social Networking" in str(i) and " 3.5" in str(i):
+    elif "Social Networking" in str(i) and "4.0" in str(i):
         social += 1
-    elif "Lifestyle" in str(i) and " 3.5" in str(i):
+    elif "Lifestyle" in str(i) and "4.0" in str(i):
         life += 1
-    elif "Music" in str(i) and " 3.5" in str(i):
+    elif "Music" in str(i) and "4.0" in str(i):
         music += 1
-    elif "Shoping" in str(i) and " 3.5" in str(i):
+    elif "Shoping" in str(i) and "4.0" in str(i):
         shop += 1
-    elif "Sports" in str(i) and " 3.5" in str(i):
+    elif "Sports" in str(i) and "4.0" in str(i):
         sports += 1
-    elif "Book" in str(i) and " 3.5" in str(i):
+    elif "Book" in str(i) and "4.0" in str(i):
         book += 1
-    elif "Finance" in str(i) and " 3.5" in str(i):
+    elif "Finance" in str(i) and "4.0" in str(i):
         finance += 1
-    elif "Travel" in str(i) and " 3.5" in str(i):
+    elif "Travel" in str(i) and "4.0" in str(i):
         travel += 1
-    elif "News" in str(i) and " 3.5" in str(i):
+    elif "News" in str(i) and "4.0" in str(i):
         news += 1
-    elif "Weather" in str(i) and " 3.5" in str(i):
+    elif "Weather" in str(i) and "4.0" in str(i):
         weather += 1
-    elif "Reference" in str(i) and " 3.5" in str(i):
+    elif "Reference" in str(i) and "4.0" in str(i):
         reference += 1
-    elif "Food & Drink" in str(i) and " 3.5" in str(i):
+    elif "Food & Drink" in str(i) and "4.0" in str(i):
         food += 1
-    elif "Business" in str(i) and " 3.5" in str(i):
+    elif "Business" in str(i) and "4.0" in str(i):
         business += 1
-    elif "Navigation" in str(i) and " 3.5" in str(i):
+    elif "Navigation" in str(i) and "4.0" in str(i):
         navigation += 1
-    elif "Medical" in str(i) and " 3.5" in str(i):
+    elif "Medical" in str(i) and "4.0" in str(i):
         medical += 1
-    elif "Catalogs" in str(i) and " 3.5" in str(i):
+    elif "Catalogs" in str(i) and "4.0" in str(i):
         catalogs += 1
 
 
-print("RATE 3.5")
+print("RATE 4.0")
+      
 print("Games :", game)
 print("Entertainment :", entertainment)
 print("Education :", education)
@@ -108,3 +119,13 @@ print("Max :", max(game, entertainment, education, photo, utilities, health\
           , book, finance, travel, travel, news, weather, reference\
           , food, business, navigation, medical, catalogs))
 
+
+    
+
+
+
+
+
+
+
+    
