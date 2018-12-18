@@ -5,7 +5,7 @@
 วิเคราะห์ว่ามีปัจจัยอะไรบ้างที่ทำให้การให้ rating แอพเพิ่มขึ้น หรือลดลง เเละหลังจากมีการอัพเดตแอพ แอพนั้นมี rating เพิ่มขึ้น ลดลงหรือเท่าเดิม
                 
 # ข้อมูลที่นำมาวิจัย
-https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
+ขอบคุณข้อมูลจาก: https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps
 # เครื่องมือที่ใช้
 1. python version 3.7
 2. numpy
