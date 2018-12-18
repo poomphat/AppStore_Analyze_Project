@@ -5,7 +5,7 @@ bar_chart = HorizontalBar()
 bar_chart.title = "Rate 2.5"
 
 bar_chart.add("Games",101)
-bar_chart.add("Entertainment",14)
+bar_chart.add("Entertainment",85)
 bar_chart.add("Education",16)
 bar_chart.add("Photo & Video",7)
 bar_chart.add("Utilities",3)
